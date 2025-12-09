@@ -1,0 +1,179 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.vendor.brand=Flagma OS
+ro.product.vendor.device=rpi5
+ro.product.vendor.manufacturer=SlizR
+ro.product.vendor.model=Pi 5
+ro.product.vendor.name=aosp_rpi5
+ro.updater.server=https://raw.githubusercontent.com/SlizR/Flagma_OS/main/update.json
+ro.updater.check_interval=86400
+ro.vendor.product.cpu.abilist=arm64-v8a
+ro.vendor.product.cpu.abilist32=
+ro.vendor.product.cpu.abilist64=arm64-v8a
+ro.vendor.build.date=Thu Dec  8 20:05:30 EET 2025
+ro.vendor.build.date.utc=1764839725
+ro.vendor.build.fingerprint=Raspberry/aosp_rpi5/rpi5:16/BP4A.251205.006/eng.tuomas:userdebug/dev-keys
+ro.vendor.build.id=FLAGMA4.7.3
+ro.vendor.build.tags=dev-keys
+ro.vendor.build.type=userdebug
+ro.vendor.build.version.incremental=eng.flagma4.7.3
+ro.vendor.build.version.release=4.7.3
+ro.vendor.build.version.release_or_codename=4.7.3
+ro.vendor.build.version.sdk=36
+ro.vendor.build.version.sdk_full=36.1
+####################################
+# from device/brcm/rpi5/vendor.prop
+####################################
+# Audio
+persist.vendor.audio.device=hdmi0
+ro.boot.audio.tinyalsa.simulate_input=true
+ro.config.media_vol_default=20
+ro.config.media_vol_steps=25
+# Bluetooth
+bluetooth.device.class_of_device=90,2,12
+bluetooth.device.default_name=Raspberry Pi 5
+bluetooth.profile.a2dp.sink.enabled=true
+bluetooth.profile.a2dp.source.enabled=true
+bluetooth.profile.asha.central.enabled=true
+bluetooth.profile.avrcp.controller.enabled=true
+bluetooth.profile.avrcp.target.enabled=true
+bluetooth.profile.bap.broadcast.assist.enabled=true
+bluetooth.profile.bap.unicast.client.enabled=true
+bluetooth.profile.bas.client.enabled=true
+bluetooth.profile.ccp.server.enabled=true
+bluetooth.profile.csip.set_coordinator.enabled=true
+bluetooth.profile.gatt.enabled=true
+bluetooth.profile.hap.client.enabled=true
+bluetooth.profile.hfp.ag.enabled=true
+bluetooth.profile.hid.device.enabled=true
+bluetooth.profile.hid.host.enabled=true
+bluetooth.profile.map.server.enabled=true
+bluetooth.profile.mcp.server.enabled=true
+bluetooth.profile.opp.enabled=true
+bluetooth.profile.pan.nap.enabled=true
+bluetooth.profile.pan.panu.enabled=true
+bluetooth.profile.pbap.server.enabled=true
+bluetooth.profile.sap.server.enabled=true
+bluetooth.profile.vcp.controller.enabled=true
+persist.bluetooth.a2dp_aac.vbr_supported=true
+# CEC
+persist.vendor.hdmi.cec_device=cec0
+ro.hdmi.cec_device_types=playback_device
+ro.hdmi.device_type=4
+# Chipset
+ro.soc.manufacturer=Broadcom
+ro.soc.model=BCM2712
+# Display
+persist.vendor.forced_orient=true
+persist.vendor.sf.auto_lcd_density=true
+# FFmpeg
+persist.vendor.ffmpeg_codec2.rank.audio=16
+persist.vendor.ffmpeg_codec2.rank.video=256
+persist.vendor.ffmpeg_codec2.v4l2.h265=true
+# GPS
+persist.vendor.gps.device=ttyACM0
+persist.vendor.gps.ttybaud=9600
+# Graphics
+vendor.hwc.drm.ctm=DRM_OR_IGNORE
+vendor.hwc.drm.disable_hdr=1
+# Lockscreen
+ro.lockscreen.disable.default=true
+# Media
+debug.stagefright.c2inputsurface=-1
+media.c2.hal.selection=aidl
+# MGLRU
+persist.device_config.mglru_native.lru_gen_config=core
+# Sensors
+ro.hardware.sensors=iio
+ro.iio.accel.quirks=no-trig,no-event
+ro.iio.anglvel.quirks=no-trig,no-event
+ro.iio.humidity.quirks=no-trig,no-event
+ro.iio.illuminance.quirks=no-trig,no-event
+ro.iio.magn.quirks=no-trig,no-event
+ro.iio.pressure.quirks=no-trig,no-event
+ro.iio.proximity.quirks=no-trig,no-event
+ro.iio.temp.quirks=no-trig,no-event
+ro.iio.accel.lsm303d.name=LSM303DLHC Accelerometer
+ro.iio.accel.lsm6ds3.name=LSM6DS3 Accelerometer
+ro.iio.accel.mpu6050.name=MPU6050 Accelerometer
+ro.iio.anglvel.lsm6ds3.name=LSM6DS3 Gyroscope
+ro.iio.anglvel.mpu6050.name=MPU6050 Gyroscope
+ro.iio.humidity.bme280.name=BME280 Humidity
+ro.iio.illuminance.apds993.name=APDS9930 Illuminance
+ro.iio.magn.lsm303d.name=LSM303DLHC Magnetometer
+ro.iio.pressure.bme280.name=BME280 Pressure
+ro.iio.pressure.bmp280.name=BMP280 Pressure
+ro.iio.proximity.apds993.name=APDS9930 Proximity
+ro.iio.temp.bme280.name=BME280 Temperature
+ro.iio.temp.bmp280.name=BMP280 Temperature
+ro.iio.temp.mpu6050.name=MPU6050 Temperature
+# Virtualization
+ro.boot.hypervisor.vm.supported=1
+# Wifi
+ro.boot.wificountrycode=00
+wifi.interface=wlan0
+# Window extensions
+persist.settings.large_screen_opt.enabled=true
+####################################
+# from android-info.prop
+####################################
+####################################
+# from variable ADDITIONAL_VENDOR_PROPERTIES
+####################################
+ro.bionic.arch=arm64
+ro.bionic.cpu_variant=cortex-a76
+ro.bionic.2nd_arch=
+ro.bionic.2nd_cpu_variant=
+persist.sys.dalvik.vm.lib.2=libart.so
+dalvik.vm.isa.arm64.variant=cortex-a76
+dalvik.vm.isa.arm64.features=default
+ro.minui.pixel_format=ARGB_8888
+ro.product.first_api_level=36
+ro.product.debugfs_restrictions.enabled=false
+ro.board.api_level=202504
+ro.board.api_frozen=true
+ro.vendor.build.security_patch=2025-12-05
+ro.product.board=bcm2712
+ro.board.platform=bcm2712
+ro.hwui.use_vulkan=
+ro.sf.lcd_density=240
+ro.build.ab_update=false
+####################################
+# from variable PRODUCT_VENDOR_PROPERTIES
+####################################
+ro.zygote=zygote64
+dalvik.vm.dex2oat64.enabled=true
+dalvik.vm.heapstartsize=16m
+dalvik.vm.heapgrowthlimit=192m
+dalvik.vm.heapsize=512m
+dalvik.vm.heaptargetutilization=0.75
+dalvik.vm.heapminfree=512k
+dalvik.vm.heapmaxfree=8m
+persist.vendor.cpufreq.governor=ondemand
+persist.vendor.zram.size=none
+external_storage.projid.enabled=1
+external_storage.casefold.enabled=1
+external_storage.sdcardfs.enabled=0
+ro.config.ringtone=Ring_Synth_04.ogg
+# Removed by post_process_props.py because overridden by ro.config.notification_sound?=OnTheHunt.ogg
+#ro.config.notification_sound?=pixiedust.ogg
+tombstoned.max_tombstone_count=50
+ro.logd.size.stats=64K
+log.tag.stats_log=I
+ro.carrier=unknown
+ro.config.notification_sound=OnTheHunt.ogg
+ro.config.alarm_alert=Alarm_Classic.ogg
+ro.recovery.usb.vid=18D1
+ro.recovery.usb.adb.pid=D001
+ro.recovery.usb.fastboot.pid=4EE0
+# Removed by post_process_props.py because overridden by ro.zygote=zygote64
+#ro.zygote?=zygote32
+####################################
+# from variable PRODUCT_DEFAULT_PROPERTY_OVERRIDES
+####################################
+####################################
+# from variable PRODUCT_PROPERTY_OVERRIDES
+####################################
+# end of file
